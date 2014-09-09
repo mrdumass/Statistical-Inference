@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 ## Statistical Inference Course Project Part 1 ##
 
 Here I will answer the following questions:
@@ -14,6 +17,8 @@ You should
 First I calculate the means of a 1000 random exponential with lamba =.2 forty times.
 
 ```{r}
+install.packages("latex")
+library(latex)
 set.seed(1234)
 samples<-1000
 sample_means<-vector("numeric",samples)
