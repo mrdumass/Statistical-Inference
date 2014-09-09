@@ -51,3 +51,4 @@ sd(sample_means)
 
 Again the theoretical and simulated values are pretty close.
 
+Now we move onto the third question.
